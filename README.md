@@ -10,6 +10,14 @@ A Vencord plugin that keeps track of servers you've joined and allows you to rej
 -   **Server Info Modal**: Click on fake server entries to view cached information and rejoin
 -   **Persistent Storage**: Server data is saved across Discord sessions
 
+## Installation
+
+1. Copy the `blu-keepServers.desktop` folder to your Vencord `src/userplugins_` directory
+2. Rebuild Vencord: `pnpm run build`
+3. Restart Discord
+4. Enable the plugin in Vencord settings
+5. Configure your preferences
+
 ## How It Works
 
 ### When You Join a Server (GUILD_CREATE)
