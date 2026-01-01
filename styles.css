@@ -1,0 +1,120 @@
+/* Keep Servers Plugin Styles */
+
+.blu-keep-servers-modal-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.blu-keep-servers-server-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.blu-keep-servers-server-name {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--header-primary);
+}
+
+.blu-keep-servers-server-info {
+    padding: 16px 0;
+}
+
+.blu-keep-servers-info-section {
+    margin-bottom: 20px;
+}
+
+.blu-keep-servers-info-section h3 {
+    margin: 0 0 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--header-primary);
+}
+
+.blu-keep-servers-info-item {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: var(--text-normal);
+}
+
+.blu-keep-servers-info-item strong {
+    color: var(--text-normal);
+    font-weight: 600;
+}
+
+.blu-keep-servers-invite-link {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 2px 6px;
+    background: var(--background-modifier-accent);
+    border-radius: 4px;
+    font-family: var(--font-code);
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.blu-keep-servers-warning-section {
+    margin-top: 16px;
+    padding: 12px;
+    background: var(--background-modifier-warning);
+    border-radius: 8px;
+    border: 1px solid var(--status-warning);
+}
+
+.blu-keep-servers-warning-text {
+    margin: 0;
+    font-size: 14px;
+    color: var(--status-warning);
+}
+
+.blu-keep-servers-modal-actions {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+/* Fake server entry styles */
+.blu-keep-servers-fake-guild {
+    position: relative;
+    opacity: 0.7;
+}
+
+.blu-keep-servers-fake-guild::after {
+    content: "🚫";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    font-size: 12px;
+    background: var(--background-floating);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--status-danger);
+}
+
+.blu-keep-servers-fake-guild:hover {
+    opacity: 1;
+}
+
+.blu-keep-servers-fake-guild .guild-icon {
+    filter: grayscale(50%);
+}
+
+/* Server list indicator */
+.blu-keep-servers-indicator {
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    width: 8px;
+    height: 8px;
+    background: var(--status-danger);
+    border-radius: 50%;
+    border: 1px solid var(--background-primary);
+}

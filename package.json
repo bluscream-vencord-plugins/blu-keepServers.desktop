@@ -1,0 +1,53 @@
+{
+    "name": "blu-keepServers",
+    "version": "1.0.0",
+    "description": "Keeps track of servers you've joined and allows you to rejoin them later",
+    "main": "index.tsx",
+    "scripts": {
+        "build": "echo 'No build step required for Vencord user plugins'",
+        "test": "echo 'No tests specified'",
+        "lint": "echo 'Linting would go here'"
+    },
+    "keywords": [
+        "vencord",
+        "discord",
+        "servers",
+        "guilds",
+        "invite",
+        "rejoin",
+        "tracking",
+        "storage",
+        "plugin",
+        "userplugin",
+        "automation"
+    ],
+    "author": {
+        "name": "Bluscream",
+        "url": "https://github.com/Bluscream"
+    },
+    "license": "GPL-3.0-or-later",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Bluscream/vencord-plugins.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Bluscream/vencord-plugins/issues"
+    },
+    "homepage": "https://github.com/Bluscream/vencord-plugins#readme",
+    "vencord": {
+        "plugin": true,
+        "userPlugin": true,
+        "desktop": true
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "files": [
+        "index.tsx",
+        "utils.ts",
+        "components/",
+        "styles.css",
+        "README.md",
+        "package.json"
+    ]
+}
