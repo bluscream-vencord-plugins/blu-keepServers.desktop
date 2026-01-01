@@ -112,4 +112,4 @@ This plugin was developed with assistance from **Cursor.AI** (Cursor's AI coding
 
 ## License
 
-This plugin follows the same GPL-3.0-or-later license as Vencord.
+Unlicense
